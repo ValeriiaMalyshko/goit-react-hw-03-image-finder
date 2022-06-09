@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import s from './App.module.css';
 import Searchbar from './Searchbar/Searchbar';
 import ImageGallery from './Gallery/ImageGallery';
-import imagesApi from './API/API';
+import imagesApi from '../services/API';
 import Button from './Button/Button';
 import Modal from './Modal/Modal';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
